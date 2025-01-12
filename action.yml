@@ -1,0 +1,14 @@
+name: 'Giphy PR Comment'
+description: 'Add GIF to the PR Comment'
+
+inputs:
+  github-token:
+    description: 'GitHub Token'
+    required: true
+  giphy-api-key:
+    description: 'Giphy API key'
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
