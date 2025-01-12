@@ -1,4 +1,4 @@
-name: 'Giphy PR Comment'
+name: 'Giphy PR Comment Js Action'
 description: 'Add GIF to the PR Comment'
 
 inputs:
